@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first test", "first test\first test.csproj", "{DF2C47EC-9C6A-4C07-B1E1-13872BA2C9B6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS5", "AS5\AS5.csproj", "{1BBDADF0-1A33-4EBD-AD62-CA0BAD6C8866}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF2C47EC-9C6A-4C07-B1E1-13872BA2C9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF2C47EC-9C6A-4C07-B1E1-13872BA2C9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF2C47EC-9C6A-4C07-B1E1-13872BA2C9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF2C47EC-9C6A-4C07-B1E1-13872BA2C9B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BBDADF0-1A33-4EBD-AD62-CA0BAD6C8866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BBDADF0-1A33-4EBD-AD62-CA0BAD6C8866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BBDADF0-1A33-4EBD-AD62-CA0BAD6C8866}.Release|Any CPU.ActiveCfg = Release|Any CPU
