@@ -11,7 +11,7 @@ namespace AS5
         static void Main(string[] args)
         {
             TimeSpan t = TimeSpan.FromSeconds(61);
-            Console.WriteLine("m", t);
+            Console.WriteLine("", t);
 
         }
     }
