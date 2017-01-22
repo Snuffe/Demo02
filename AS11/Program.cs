@@ -12,10 +12,11 @@ namespace AS11
         {
             Console.Write("Anna tahtirivien lukumaara: ");
             int n = int.Parse(Console.ReadLine());
-            int i = 1;
-            for (i in n)
+       
+            for (int i = 1; i<=n;  i++)
             {
-                Console.Write("* \n");
+               
+                Console.WriteLine(String.Concat(Enumerable.Repeat("*", i)));
             }
 
         }
