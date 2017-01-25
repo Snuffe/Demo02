@@ -14,12 +14,8 @@ namespace AS15
             Console.Write("Anna puunkorkeus > ");
             int n = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= n; i++)
-            {
-                Console.Write(String.Concat(Enumerable.Repeat( "*", i)));
-                Console.Write(String.Concat(Enumerable.Repeat("* \n", 2)));
-            }
-
+            Console.WriteLine(String.Concat(Enumerable.Repeat(" ",n)));
+            Console.WriteLine(String.Concat(Enumerable.Repeat("*", i)));
         }
     }
 }

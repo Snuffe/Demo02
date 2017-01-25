@@ -22,3 +22,11 @@ namespace AS11
         }
     }
 }
+// tai
+//for (int i = 0; i < n; i++){
+//    for(int j = 0; <=i; j++)
+//    {
+//        console.Write("*");
+//    }
+//    Console.WriteLine();
+//    }

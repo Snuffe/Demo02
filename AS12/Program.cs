@@ -15,25 +15,19 @@ namespace AS12
             int n = 1;
             
             Console.Write("Anna kokonaisnumero " + n + " > ", n++);
-            int num1 = int.Parse(Console.ReadLine());
-            luvut[0] = num1;
-
+            luvut[0] = int.Parse(Console.ReadLine());
 
             Console.Write("Anna kokonaisnumero " + n + " > ", n++);
-            int num2 = int.Parse(Console.ReadLine());
-            luvut[1] = num2;
+            luvut[1] = int.Parse(Console.ReadLine());
 
             Console.Write("Anna kokonaisnumero " + n + " > ", n++);
-            int num3 = int.Parse(Console.ReadLine());
-            luvut[2] = num3;
+            luvut[2] = int.Parse(Console.ReadLine());
 
             Console.Write("Anna kokonaisnumero " + n + " > ", n++);
-            int num4 = int.Parse(Console.ReadLine());
-            luvut[3] = num4;
+            luvut[3] = int.Parse(Console.ReadLine());
 
             Console.Write("Anna kokonaisnumero " + n + " > ");
-            int num5 = int.Parse(Console.ReadLine());
-            luvut[4] = num5;
+            luvut[4] = int.Parse(Console.ReadLine());
 
             Array.Reverse(luvut);
 
